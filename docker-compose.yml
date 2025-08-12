@@ -1,0 +1,6 @@
+services:
+  specification.api:
+    image: ${DOCKER_REGISTRY-}specificationapi
+    build:
+      context: .
+      dockerfile: Specification.API/Dockerfile
